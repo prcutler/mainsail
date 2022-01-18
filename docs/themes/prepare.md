@@ -12,19 +12,16 @@ description: >-
 {{ page.description }}
 
 ## .theme folder
-You only need to create a ".theme" folder in your config folder.  
-There you will place all the files you need to personalize Mainsail.
+A ".theme" folder will need to be created in your `config` folder.  
+Please all files, such as CSS, in this folder to customize Mainsail.
 
-You can use Mainsail's built-in file manager `(Settings > Machine)` to create the .theme folder and upload all the files and edit your css-files.
-
-The dot in the folder name means that it is a hidden folder. Therefore you have to activate "show hidden files".
+The dot in the folder name means that it is a hidden folder. You wil need to activate "Show Hidden Files" in your operating system.
 {: .info}
 
 ![screenshot](../assets/img/customizing/screenshot-display-hidden-files.png)
 
-## directory structure
-We have prepared the following simple overview for you. 
-Please refer to the separate instructions for details.
+## Directory structure
+The default file and folder structure is provided below. Please refer to the separate instructions for details.
 
 All listed files in the .theme folder are optional and will only be loaded if they are provided.
 {: .info}
